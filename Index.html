@@ -7,6 +7,7 @@
 
     <!-- CSS only -->
     <link href="./bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
 
     <title>Document</title>
 </head>
@@ -46,29 +47,83 @@
             </div>
         </div>
     </section>
+
+    <section id="produtos">
+
         <div class="container">
             <div class="row">
-                <!-- Unidade = Largura da área dividio por 12 -->
-                <div class="col-md-5 col-sm-12">Linha 1 - Coluna 1</div>
-                <div class="col-md-7 col-sm-12">Linha 2 - Coluna 2</div>
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./img/img01.jpg" alt="Imagem-01" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium ullam, fugiat provident ea eaque suscipit esse vitae sequi ipsa quibusdam quae aperiam eveniet iure perferendis, aut delectus eum soluta.</p>
+                            <a class="btn btn-primary" href="#produto-1">Ver Produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/img01.jpg" alt="Imagem-01" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium ullam, fugiat provident ea eaque suscipit esse vitae sequi ipsa quibusdam quae aperiam eveniet iure perferendis, aut delectus eum soluta.</p>
+                            <a class="btn btn-primary" href="#produto-2">Ver Produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/img01.jpg" alt="Imagem-01" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium ullam, fugiat provident ea eaque suscipit esse vitae sequi ipsa quibusdam quae aperiam eveniet iure perferendis, aut delectus eum soluta.</p>
+                            <a class="btn btn-primary" href="#produto-3">Ver Produto</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="row">
-                <div class="col">Linha 2 - Coluna 1</div>
-            </div>
-            <div class="row">
-                <div class="col">Linha 3 - Coluna 1</div>
-                <div class="col">Linha 3 - Coluna 2</div>
-                <div class="col">Linha 3 - Coluna 3</div>
-            </div>
-        
         </div>
-    </div>
+
+    </section>
+
+    <section id="contato">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                   <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="caixa" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+                   </form>
+                </div>
+            </div>
+        </div>
 
 
-
-
+    </section>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
