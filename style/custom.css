@@ -1,6 +1,30 @@
+header {
+    background-color: rgb(74, 74, 179);
+    color: white;
+    line-height: 4rem;
+}
+
+header h3 {
+    height: auto;
+    margin-top: 20px;
+}
+
 section {
     padding-bottom: 4rem;
     padding-top: 4rem;
+}
+
+#contato {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produtos {
+    background-color: rgb(221, 235, 235);
+}
+
+#produto-01 {
+    background-color: rgb(205, 210, 214);
 }
 
 input,
@@ -12,4 +36,11 @@ textarea {
     width: 32%;
     float: left;
     margin: 5px;
+    text-align: justify;
+}
+
+.nav-link {
+    font-size: 2rem;
+    color: white;
+    align-items: center;
 }
