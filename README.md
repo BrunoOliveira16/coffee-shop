@@ -2,8 +2,11 @@
 Repositório para projetos acadêmicos de estudo utilizando o framework Bootstrap, aplicando conceitos da biblioteca
 para realizar modificações e incrementação em uma página web.
 
-Conteúdo abaixo são informações complementares sobre o framework:
+# SCREENSHOT DO PROJETO
+![screenshot].(./screenshot/screenshot.jpg)
 
+
+Conteúdo abaixo são informações complementares sobre o framework:
 # Bootstrap
 - Framework ou biblioteca desenvolvimento
 - Modular
