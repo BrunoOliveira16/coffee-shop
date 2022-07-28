@@ -3,7 +3,7 @@ Repositório para projetos acadêmicos de estudo utilizando o framework Bootstra
 para realizar modificações e incrementação em uma página web.
 
 # SCREENSHOT DO PROJETO
-![screenshot].(./screenshot/screenshot.jpg)
+![Screenshot](./screenshot/screenshot.jpg)
 
 
 Conteúdo abaixo são informações complementares sobre o framework:
