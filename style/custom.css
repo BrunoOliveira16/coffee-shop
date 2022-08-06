@@ -19,12 +19,9 @@ section {
     margin-right: auto;
 }
 
-#produtos {
-    background-color: rgb(221, 235, 235);
-}
 
-#produto-01 {
-    background-color: rgb(205, 210, 214);
+#produtos, #produto-01 {
+    background-color: rgba(244, 244, 245, 0.911);
 }
 
 input,
@@ -52,3 +49,8 @@ textarea {
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: rgb(10, 235, 160);
 }
+
+h4, h6 {
+    color: red;
+}
+

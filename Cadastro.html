@@ -48,12 +48,17 @@
                 <div class="row">
                     <div class="col">
                         <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome" required>
                         </div>
                     </div>
                     <div class="col">
                         <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="telefone" placeholder="telefone (xx) xxxxx-xxxx" required>
                         </div>
                     </div>
                 </div>
@@ -62,6 +67,14 @@
                     <div class="col">
                         <label for="endereço" class="col-form-label-sm">Endereço completo</label>
                         <input type="text" class="form-control" id="endereço" placeholder="Endereço completo">
+                    </div>
+                    <div class="col">
+                        <label for="complemento" class="col-form-label-sm">Complemento</label>
+                        <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+                    </div>
+                    <div class="col">
+                        <label for="bairro" class="col-form-label-sm">Bairro</label>
+                        <input type="text" class="form-control" id="bairro" placeholder="Bairro">
                     </div>
                 </div>
 
@@ -95,20 +108,23 @@
                 </div>
                 
                 <div class="row">
-                    <div class="col">
-                        <div class="form-check">
-                            <input type="checkbox" name="promocionais" id="promocionais">
-                            <label for="promocionais" class="form-check-label">Aceito receber mensagens promocionais</label>
-                        </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="promocionais" id="promocionais">
+                        <label for="promocionais" class="form-check-label">Aceito receber mensagens promocionais</label>
                     </div>
+
+                    <div class="col">
+                        <button type="submit" class="btn btn-lg btn-success">Realizar Cadastro</button>
+                    </div>
+                    
                 </div>
-
-                <button type="submit" class="btn btn-lg btn-success">Realizar Cadastro</button>
-
+                        
             </form>
                   
-            <p> <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber noviades.</p>
 
+            <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber noviades.</p>
+
+            
         </div>
 
     </section>

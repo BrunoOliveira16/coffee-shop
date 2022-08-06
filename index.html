@@ -32,6 +32,64 @@
         </div>
     </header>
 
+    <section id="carouusel">
+
+        <div class="container">
+
+            <div id="carouselExampleCaptions" class="carousel carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active" data-bs-interval="2500">
+                        <div class="ratio ratio-21x9">
+                            <img src="./img/img-01.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Analise e Desenvolvimento de Sistemas</h4>
+                                <h6>Desenvolva projetos, analise e implemente sistemas de informação.</h6>
+                            </div>                  
+                        </div>
+                  </div>
+
+                  <div class="carousel-item active" data-bs-interval="2500">
+                        <div class="ratio ratio-21x9">
+                            <img src="./img/img-02.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Ciência da Computação</h4>
+                                <h6>Crie softwares de acordo com as necessidades dos clientes.</h6>
+                            </div>
+                        </div>                   
+                  </div>
+
+                  <div class="carousel-item active" data-bs-interval="2500">
+                        <div class="ratio ratio-21x9">
+                            <img src="./img/img-03.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Ciência de Dados</h4>
+                                <h6>Entenda e analise fenômenos com a ajuda dos dados de forma inovadora.</h6>
+                            </div>
+                        </div>                       
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Próximo</span>
+                </button>
+              </div>
+
+        </div>
+
+    </section>
+
     <section id="sobre">
         <div class="container container-fluid">
             <div class="row">
@@ -414,6 +472,12 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const myCarouselElement = document.querySelector('#carouselExampleCaptions')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+        })
+    </script>
 
 </body>
 </html>
