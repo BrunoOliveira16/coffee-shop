@@ -1,9 +1,35 @@
 # Bootstrap-Academico
-Repositório para projetos acadêmicos de estudo utilizando o framework Bootstrap, aplicando conceitos da biblioteca
-para realizar modificações e incrementação em uma página web.
 
-# SCREENSHOT DO PROJETO
+## 📝 Repositório de Estudo - Bootstrap
+- Este repositório trata-se da aplicação do framework Bootstrap, para realizar modificações e incrementação em uma página web.
+
+## 💻 Screenshot do projeto
 ![Screenshot](./screenshot/Screenshot.jpg)
+
+## 📚 Seções
+
+O projeto é composto das seguintes caracteristicas:
+- **Biblioteca Bootstrap:** Utilização da biblioteca para incrementação na página web;
+- **Carousel, cards e modals:** Utilização de itens da biblioteca para oferecer melhor experiência ao usuário;
+- **Font awesome:** importação de icones para melhorar a experiência do usuário;
+
+---
+
+## 💼 Tecnologias utilizadas
+
+Para o desenvolvimento do projeto foi utilizado as seguintes tecnologias:
+
+- HTML;
+- CSS;
+- JavaScript;
+- Bootstrap 5.2.0;
+- Font Awesome;
+
+---
+
+## 🙋🏻‍♂️ Autor
+
+Bruno Oliveira
 
 
 Conteúdo abaixo são informações complementares sobre o framework:
