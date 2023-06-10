@@ -1,0 +1,18 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFF;
+    background-color: rgb(146, 100, 13);
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
